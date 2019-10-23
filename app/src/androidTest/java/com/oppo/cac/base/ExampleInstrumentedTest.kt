@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.oppo.cac.base", appContext.packageName)
+        assertEquals("com.oppo.cac.base.kitkat", appContext.packageName)
     }
 }
